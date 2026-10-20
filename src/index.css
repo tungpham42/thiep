@@ -207,6 +207,7 @@ h3 {
     0 4px 12px -4px rgba(232, 90, 113, 0.3);
 }
 .btn-primary:hover {
+  color: #fff;
   --sh:
     0 20px 40px -12px rgba(232, 90, 113, 0.6),
     0 8px 16px -6px rgba(232, 90, 113, 0.4);
@@ -1221,6 +1222,7 @@ h3 {
 .chip:hover {
   background: #fff;
   border-color: var(--rose-200);
+  color: var(--rose-500);
 }
 .chip--active {
   background: var(--rose-500);
