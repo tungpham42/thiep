@@ -34,7 +34,7 @@ export function AdminNewCard() {
         submitLabel="✿ Tạo thiệp"
         onSubmit={async (data) => {
           const res = await api.createCard(data);
-          nav(`//${res.slug}`);
+          nav(`/${res.slug}`);
         }}
       />
     </EditorShell>

@@ -102,7 +102,7 @@ export function Home() {
           </div>
           <div className="home-grid stagger">
             {recent.map((card) => (
-              <Link key={card.id} to={`//${card.slug}`} className="home-card">
+              <Link key={card.id} to={`/${card.slug}`} className="home-card">
                 <div className="home-card-flower">
                   <FlowerSVG
                     svg={card.flowerSvg}
